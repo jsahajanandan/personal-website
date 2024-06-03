@@ -4,7 +4,7 @@ export const jobData = [
     title: 'Head of Engineering',
     duration: 'March 2021 - Present',
     description: 'Led the engineering team, built a Learning Management System, developed a gamified app, and spearheaded the creation of a chat-driven learning platform using advanced AI technologies.',
-    image: '/spark-studio.jpg',
+    image: '/SparkImage.png',
     tech: 'Ruby on Rails, PostgreSQL, Next.js, AWS, Razorpay, OpenAI, DALL·E 3',
   },
   {
@@ -12,7 +12,7 @@ export const jobData = [
     title: 'Principal Software Engineer, Backend',
     duration: 'April 2020 – Jan 2021',
     description: 'Led the development of the BYJU\'S English Learning App, designed a conversational model, and developed a content ingestion tool.',
-    image: '/byjus.jpg',
+    image: '/ByjusImage.png',
     tech: 'Dialogflow, AWS, RESTful APIs',
   },
   {
@@ -20,7 +20,7 @@ export const jobData = [
     title: 'Senior Software Engineer, Backend',
     duration: 'Jan 2016 – April 2020',
     description: 'Integrated the BYJU\'S App on Google Home, created a push notification framework, and developed various features including mentor scheduling and guided learning.',
-    image: '/byjus.jpg',
+    image: '/ByjusImage.png',
     tech: 'Dialogflow, Firebase, AWS SQS, AWS Lambda',
   },
   {
@@ -28,7 +28,7 @@ export const jobData = [
     title: 'Senior Software Engineer, Backend',
     duration: 'May 2015 – Dec 2015',
     description: 'Developed a Rails engine for role-based authorization, built a microservice for user management, and worked on inventory management for online booking.',
-    image: '/housing.jpg',
+    image: '/HousingImage.png',
     tech: 'Ruby on Rails, Microservices, Inventory Management',
   },
   {
@@ -36,7 +36,7 @@ export const jobData = [
     title: 'Software Engineer, Full Stack',
     duration: 'Nov 2013 – May 2015',
     description: 'Developed features for Draw Something, engaged in reverse engineering for COPPA compliance, and added new features to games.',
-    image: '/zynga.jpg',
+    image: '/ZyngaImage.png',
     tech: 'Marmalade (C++), Ruby on Rails',
   },
   {
@@ -44,7 +44,7 @@ export const jobData = [
     title: 'Associate Software Engineer, Full Stack',
     duration: 'Feb 2012 – Oct 2013',
     description: 'Improved performance of games, added new features, and worked on templatization for feature automation.',
-    image: '/zynga.jpg',
+    image: '/ZyngaImage.png',
     tech: 'ActionScript, PHP',
   },
 ];
