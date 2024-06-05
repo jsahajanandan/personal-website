@@ -66,12 +66,12 @@ export default function Home() {
       <section id="contact" className="flex flex-col justify-center p-6 animation-slideIn glass-effect">
         <h2 className="text-3xl font-bold text-center underline">Contact</h2>
         <p className="text-lg mt-4 text-center">
-          I'd love to hear from you! Whether you have a question, a project opportunity, or just want to connect, feel free to reach out.
+          I would love to hear from you! Whether you have a question, a project opportunity, or just want to connect, feel free to reach out.
         </p>
         <form className="flex flex-col space-y-4 mt-4 max-w-md mx-auto">
           <input type="text" placeholder="Your Name" required className="p-2 border border-gray-300 rounded" />
           <input type="email" placeholder="Your Email" required className="p-2 border border-gray-300 rounded" />
-          <textarea placeholder="Your Message" rows="5" required className="p-2 border border-gray-300 rounded"></textarea>
+          <textarea placeholder="Your Message" required className="p-2 border border-gray-300 rounded"></textarea>
           <button type="submit" className="p-2 bg-blue-600 text-white rounded hover:bg-blue-700">Send Message</button>
         </form>
       </section>
