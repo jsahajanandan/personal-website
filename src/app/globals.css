@@ -31,11 +31,14 @@ body {
 }
 
 .glass-effect {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(3, 69, 160, 0.3);
+  /* Deep blue tint */
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .glow-text {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
 }
@@ -96,6 +99,10 @@ body {
 
 .flip-card-front,
 .flip-card-back {
+  background: linear-gradient(135deg, #002147, #0345A0);
+    /* Apply gradient */
+    color: white;
+    /* Ensure text is white */
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -111,6 +118,7 @@ body {
 }
 
 .flip-card-innermost {
+  background: linear-gradient(135deg, #002147, #0345A0);
   position: absolute;
   width: 450px;
   height: 300px;

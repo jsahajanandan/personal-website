@@ -19,8 +19,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="glass-effect fixed top-0 left-0 w-full text-white p-4 md:p-6 shadow-2xl z-50 overflow-hidden">
           <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between">
-            <h1 className="text-2xl md:text-4xl font-extrabold drop-shadow-lg glow-text mb-2 md:mb-0 text-center md:text-left">
-              Head of Engineering - [Your Name]
+            <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow-lg  mb-2 md:mb-0 text-center md:text-left">
+              Jyothika Sahajanandan
             </h1>
             <nav className="mt-2 md:mt-0 flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 text-lg">
               <a href="#about" className="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-110">About</a>
